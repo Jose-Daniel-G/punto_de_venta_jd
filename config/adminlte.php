@@ -299,34 +299,71 @@ return [
         // Navbar items:
         [
             'text' => 'Dashboard',
-            'route' => 'admin.home',
+            'route' => 'panel',
+            // 'route' => 'admin.home',
             'icon' => 'fas fa-building', // Usa un icono adecuado de Font Awesome
 
         ],
-        // [
-        //     'text' => 'Cargar documentos',
-        //     'route' => 'main.index',
-        //     'icon' => 'fas fa-home fa-fw ',
-        // ],
+        [
+            'text' => 'Compras',
+            'route' => '',
+            'icon' => 'fa fa-store',
+        ],
+        [
+            'text'        => 'Ventas',
+            'route'         => '',
+            'icon' => 'fa fa-cart-shopping',
+            'permissions'  => '',
+        ],
+        [
+            'text'        => 'Categorias',
+            'route'         => '',
+            'icon' => 'fa fa-tag',
+            'permissions'  => '',
+        ],
+        [
+            'text'        => 'Presentaciones',
+            'route'         => '',
+            'icon' => 'fa fa-box-archive',
+            'permissions'  => '',
+        ],
+        [
+            'text'        => 'Marcas',
+            'route'         => '',
+            'icon' => 'fa fa-bullhorn',
+            'permissions'  => '',
+        ],
+        [
+            'text'        => 'Productos',
+            'route'         => '',
+            'icon' => 'fa-brands fa-shopify',
+            'permissions'  => '',
+        ],
+        [
+            'text'        => 'Clientes',
+            'route'         => '',
+            'icon' => 'fa fa-users',
+            'permissions'  => '',
+        ],
+        [
+            'text'        => 'Proveedores',
+            'route'         => '',
+            'icon' => 'fa fa-user-group',
+            'permissions'  => '',
+        ],
+        ['header' => 'otros'],
         [
             'text'        => 'Usuarios',
-            'route'         => 'admin.users.index',
-            'icon' => 'fas fa-users fa-fw ',
-            'permissions'  => 'admin.users.index',
+            'route'         => '',
+            'icon' => 'fa fa-user',
+            'permissions'  => '',
         ],
         [
-            'text'        => 'permisos',
-            'route'         => 'admin.permissions.index',
-            'icon' => 'fas fa-key fa-fw ',
-            'permissions'  => 'admin.users.index',
+            'text'        => 'Roles',
+            'route'         => '',
+            'icon' => 'fa-solid fa-user-tie',
+            'permissions'  => '',
         ],
-        [
-            'text'        => 'roles',
-            'route'         => 'admin.roles.index',
-            'icon' => 'fa-solid fa-address-book',
-            'permissions'  => 'admin.roles.index',
-        ],
-        // ['header' => 'ADMINISTRADOR'],
         // ['header' => 'OPCIONES DE BLOG'],
 
         // [

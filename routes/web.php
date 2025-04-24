@@ -1,5 +1,6 @@
     <?php
 
+use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\CategoriaController;
 
@@ -13,9 +14,8 @@ use App\Http\Controllers\presentacioneController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\profileController;
 use App\Http\Controllers\proveedorController;
-use App\Http\Controllers\roleController;
-use App\Http\Controllers\userController;
-use App\Http\Controllers\ventaController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\VentaController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -43,7 +43,7 @@ use Illuminate\Support\Facades\Route;
         'proveedores' => proveedorController::class,
         'compras' => compraController::class,
         'ventas' => ventaController::class,
-        'users' => userController::class,
+        'users' => UserController::class,
         'roles' => roleController::class,
         'profile' => profileController::class
     ]);
